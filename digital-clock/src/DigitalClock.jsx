@@ -11,9 +11,6 @@ function DigitalClock(){
             clearInterval(intervalInstance)
         }
     },[]);
-    
-
-
     return(
         <div>
             <p>Time: {time}</p>
